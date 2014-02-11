@@ -21,7 +21,7 @@ import java.util.Collections;
 int MIN_POPULATION = 5000;
 int BIG_CITY_COUNT = 20;
 int SMALL_CITY_COUNT = 20;
-float OUTLIER_THRESHOLD = .75;
+float OUTLIER_THRESHOLD = .5;
 int MARGIN_LEFT = 10;
 int MARGIN_RIGHT = 100;
 int MARGIN_TOP = 10;
