@@ -140,7 +140,7 @@ class EnemyShip {
 ```java
 // Processing imports ArrayList for you
 
-ArrayList<String> list = new ArrayList<String>();
+ArrayList&lt;String> list = new ArrayList&lt;String>();
 list.add("Ada Lovelace");
 list.add("Grace Hopper");
 list.add("Alan Turing");
@@ -152,7 +152,7 @@ println(s); // Ada Lovelace
 ```java
 import java.util.HashSet;
 
-HashSet<Integer> myInts = new HashSet<Integer>();
+HashSet&lt;Integer> myInts = new HashSet&lt;Integer>();
 myInts.add(1);
 myInts.add(2);
 int myInt = 3;
@@ -186,7 +186,7 @@ println(myInts); // [1, 2, 3]
 - The Java Collections can work with different types 
 - An `ArrayList` of `Integer`s or `String`s or `EnemyShip`s
 - Collections are flexible because of a Java language feature called **Generics**
-- The type goes in angle brackets: `ArrayList<String>`
+- The type goes in angle brackets: `ArrayList&lt;String>`
 - [Java Generics Documentation](http://docs.oracle.com/javase/tutorial/java/generics/)
 
 
@@ -215,7 +215,7 @@ Integer myInteger = myInt;
 The Survey Demo creates a bar chart showing how many students live in each zip code. To do this, the code first needs to count the students for each zip code. It uses a `Hashmap` to store the tallies for each zip code.
 
 ```java
-HashMap<String, Integer> zipCounts = new HashMap<String, Integer>();
+HashMap&lt;String, Integer> zipCounts = new HashMap&lt;String, Integer>();
 ```
 
 - The **key** is a `String` (The zip code: `"11211"` or `"10013"`)
@@ -230,7 +230,7 @@ How to `put()` and `get()` data in a `HashMap`
 ```java
 import java.util.HashMap;
 
-HashMap<String, Integer> zipCounts = new HashMap<String, Integer>();
+HashMap&lt;String, Integer> zipCounts = new HashMap&lt;String, Integer>();
 
 // put
 zipCounts.put("11211", 2);
@@ -252,7 +252,7 @@ println(zipCounts); // {11211=5, 10013=1}
 Counting the students in each zip.
 
 ```java
-HashMap<String, Integer> zipCounts = new HashMap<String, Integer>();
+HashMap&lt;String, Integer> zipCounts = new HashMap&lt;String, Integer>();
     
 for (TableRow row : classData.rows())
 {
@@ -319,19 +319,19 @@ public class City
 
 ...
 
-ArrayList<City> cities = loadData();
+ArrayList&lt;City> cities = loadData();
 
 ...
 
 // Note: I've taken out some of the code in this function
 // to focus on the use of Collections and Classes. The full 
 // code is in the project
-ArrayList<City> loadData()
+ArrayList&lt;City> loadData()
 {
     Table offensesCSV;
     Table employeesCSV;
 
-    HashMap<String, City> cities = new HashMap<String, City>();
+    HashMap&ltString, City> cities = new HashMap&lt;String, City>();
 
     offensesCSV = loadTable("known_offenses.csv", "header");
     
@@ -370,7 +370,7 @@ ArrayList<City> loadData()
     }
 
     //return map's values as ArrayList of cities
-    return new ArrayList<City>(cities.values());
+    return new ArrayList&lt;City>(cities.values());
 }
 ```
 
