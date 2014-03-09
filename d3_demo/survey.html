@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3 Test</title>
+		<script type="text/javascript" src="d3/d3.v3.js"></script>
+		<style type="text/css">
+
+		div.bar {
+			display: block;
+			height: 25px;
+			background-color: #99DD99;
+			margin-bottom: 5px;
+		}
+
+		</style>
+	</head>
+	<body>
+		<h1>How Many Cities Have You Lived In?</h1>
+		<script type="text/javascript">
+
+			var spreadsheet_url = "https://spreadsheets.google.com/feeds/list/0AjODaS_ym7yXdFdoVXVJaHlmLU13a0JZbHFhVVpVWkE/1/public/values?alt=json";
+			
+			d3.json(spreadsheet_url, function(error, json) {
+			  if (error) return console.warn(error);
+			  console.log(json);
+			  visualizeData(json.feed.entry);
+			});
+
+			function visualizeData(data) {
+				d3.select("body").selectAll("div")
+					.data(data)
+					.enter()
+					.append("div")
+					.attr("class", "bar")
+					.text(function(d) {
+						var name = d['gsx$firstname']['$t'] || "Anonymous";
+						return name + ": " + d['gsx$howmanycitieshaveyoulivedin']['$t'];
+					})
+					.style("width", function(d) {
+					    return d['gsx$howmanycitieshaveyoulivedin']['$t'] * 100 + "px";
+					});
+			}
+
+		</script>
+	</body>
+</html>
