@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3 Test</title>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="d3/d3.v3.js"></script>
+		<style type="text/css">
+
+		div.bar {
+			display: block;
+			height: 25px;
+			background-color: #99DD99;
+			margin-bottom: 5px;
+		}
+
+		</style>
+	</head>
+	<body>
+		<h1>Stack Overflow Tags</h1>
+		<script type="text/javascript">
+
+
+
+			$.ajax({
+				url: "http://api.stackexchange.com/2.2/tags?page=1&pagesize=10&order=desc&sort=popular&site=stackoverflow",
+
+				jsonp: "callback",
+
+				dataType: "jsonp",
+
+				success: function( response ) {
+					console.log( response ); // server response
+					visualizeData(response.items);
+				}
+			});
+
+
+
+			function visualizeData(data) {
+				d3.select("body").selectAll("div")
+					.data(data)
+					.enter()
+					.append("div")
+					.attr("class", "bar")
+					.text(function(d) {
+						return d.name + " " + d.count;
+					})
+					.style("width", function(d) {
+					    return d.count /1000 + "px";
+					});
+			}
+
+
+
+		</script>
+	</body>
+</html>
