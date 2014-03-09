@@ -82,7 +82,7 @@ int readInt(String s)
 
 void setup()
 {
-    size(1600, 1000);
+    size(900, 800);
 
     // load data from csv
     ArrayList<City> cities = loadData();
@@ -270,7 +270,7 @@ void draw()
         }
         else if (index < SMALL_CITY_COUNT)
         {
-        	fill(0, 0, 255);
+	    fill(0, 0, 255);
             dotSize = 4;
         }
         else

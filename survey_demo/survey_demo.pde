@@ -49,8 +49,8 @@ void setup()
 void draw()
 {
     // two demos in one, comment in one of the functions below.
-    citiesBarchart();
-    // zipBarchart();
+    //citiesBarchart();
+    zipBarchart();
 }
 
 
