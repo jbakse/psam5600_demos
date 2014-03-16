@@ -20,10 +20,7 @@ Usually this document is made up of multiple files:
 
 The `.html` file is the main file of a web page. It describes the content of the page and tells the browser what other files to load.
 
-The main piece of syntax in HTML is a tag. Tags usually come in pairs, and describe what kind of content they contain. The `<h1></h1>` tag pair shows that "A Simple Example" is a headline. Tags can be nested to indicate structure. 
-
-Tags are how the browser understands the nature of your text.
-
+The main piece of syntax in HTML is a tag. Tags usually come in pairs, and describe what kind of content they contain. The `<h1></h1>` tag pair shows that "A Simple Example" is a headline. Tags can be nested to indicate structure. Tags are how the browser understands the nature of your text.
 
 ```html
 <!DOCTYPE html>
@@ -38,9 +35,8 @@ Tags are how the browser understands the nature of your text.
 </html>
 ```
 
-[Dive Into HTML5](http://diveintohtml5.info/)  
+See: [Dive Into HTML5](http://diveintohtml5.info/), 
 [MDN HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Introduction_to_HTML5)
-
 
 ---
 
@@ -53,26 +49,23 @@ A CSS file will contain many **rulesets**. Each ruleset will begin with one or m
 Every rule with a selector that matches an element in the HTML will be applied. If the ruleset contains declarations for the same property, the value in the ruleset with the **most specific** selector will be used.
 
 ```css
-body
-{
+body {
   background-color: black;
   color: white; 
 }
 
-h1, h2
-{
+h1, h2 {
 	font-size: 50px;
 }
 
-p
-{
+p {
 	background-color: gray;
   font-size: 20px;
 	padding: 10px;
 }
 ```
 
-[MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+See: [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
 ---
@@ -92,7 +85,7 @@ window.onload = function() {
 }
 ```
 
-[MDN DOM](https://developer.mozilla.org/en-US/docs/DOM/DOM_Reference/Introduction#DOM_and_JavaScript)
+See: [MDN DOM](https://developer.mozilla.org/en-US/docs/DOM/DOM_Reference/Introduction#DOM_and_JavaScript)
 
 
 ---
@@ -133,12 +126,12 @@ Browsers act a little differently when they are showing local files instead of f
 
 On OS X, two common ways you can run a local server are MAMP or Python.
 
-[MAMP](http://www.mamp.info/en/)  
+See: [MAMP](http://www.mamp.info/en/),  
 [Python](https://github.com/mbostock/d3/wiki)
 
------
+------
 
------
+------
 
 ##JQuery
 
@@ -160,13 +153,13 @@ $( function () {
 });
 ```
 
-[JQuery](http://jquery.com/)  
-[Tutorials](http://learn.jquery.com/)  
-[API Ref](http://api.jquery.com/)  
-[devdocs.io](http://devdocs.io)  
+See: [JQuery](http://jquery.com/),
+[Tutorials](http://learn.jquery.com/),
+[API Ref](http://api.jquery.com/),
+[devdocs.io](http://devdocs.io)
 
 
------
+------
 
 ##D3
 
@@ -190,11 +183,11 @@ d3.select("body")
     });
 ```
 
-[D3](http://d3js.org/)  
-[D3 Tutorials](https://github.com/mbostock/d3/wiki)  
-[More Tutorials](http://alignedleft.com/tutorials/d3/)  
-[API Ref](https://github.com/mbostock/d3/wiki/API-Reference)  
-[devdocs.io](http://devdocs.io)  
+See: [D3](http://d3js.org/),
+[D3 Tutorials](https://github.com/mbostock/d3/wiki),
+[More Tutorials](http://alignedleft.com/tutorials/d3/),
+[API Ref](https://github.com/mbostock/d3/wiki/API-Reference),
+[devdocs.io](http://devdocs.io)
 
 ----
 
@@ -211,11 +204,11 @@ Method Chaining is a style of programming where you call a second method on the 
 
 JSFiddle and CodePen are both websites that let you make small html, css, js demos and easily share them.
 
-[CodePen](http://codepen.io/)
-[Example](http://codepen.io/Matnard/pen/EILwl)
+[CodePen](http://codepen.io/)  
+[Example](http://codepen.io/Matnard/pen/EILwl)  
 
-[JSFiddle](http://jsfiddle.net/)
-[Example](http://jsfiddle.net/apipkin/qUTwQ/light/)
+[JSFiddle](http://jsfiddle.net/)  
+[Example](http://jsfiddle.net/apipkin/qUTwQ/light/)  
 
 ------
 
@@ -234,15 +227,16 @@ JSON is JavaScript Object Notation, it is a way to include a complex JavaScript 
 
 JSONP means JSON with Padding. It is a convention to wrap JSON in a function call to make loading data from another domain easy, without violating XSS rules enforced by the browser.
 
-[Stack Exchange API](https://api.stackexchange.com/)
+[Stack Exchange API](https://api.stackexchange.com/)  
 [Request Builder](https://api.stackexchange.com/docs/questions#pagesize=1&order=desc&sort=activity&filter=default&site=stackoverflow&run=true)
-[Sample Response JSON](https://api.stackexchange.com/2.2/questions?pagesize=1&order=desc&sort=activity&site=scifi)
-[Sample Response JSONP](https://api.stackexchange.com/2.2/questions?pagesize=1&order=desc&sort=activity&site=scifi&callback=callme)
+[Sample Response JSON](https://api.stackexchange.com/2.2/questions?pagesize=1&order=desc&sort=activity&site=scifi)  
+[Sample Response JSONP](https://api.stackexchange.com/2.2/questions?pagesize=1&order=desc&sort=activity&site=scifi&callback=callme)  
 
 What the request URL looks like:
 <https://api.stackexchange.com/2.2/questions?pagesize=10&order=desc&sort=activity&site=scifi&filter=!)srVcvVeY6)9bllt7InG>
 
-http://codepen.io/jbakse/pen/bgmkB
+
+[CodePen Example](http://codepen.io/jbakse/pen/bgmkB)
 
 ------
 
@@ -250,3 +244,5 @@ http://codepen.io/jbakse/pen/bgmkB
 
 [GitHub Examples](https://github.com/jbakse/psam5600_demos)
 [Code Pen Examples](http://codepen.io/collection/jsEfA/)
+
+[Reveal Slideshow](http://justinbakse.com/reveal/index.php?src=https://raw.github.com/jbakse/psam5600_demos/master/realtime.md#/)
