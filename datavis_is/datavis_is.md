@@ -1,3 +1,6 @@
+[See this as slides](http://justinbakse.com/revealer/https://raw.githubusercontent.com/jbakse/psam5600_demos/master/datavis_is/datavis_is.md)
+------
+
 # What Graphic Design Is
 
 > Q: What is your definition of design?
@@ -110,6 +113,7 @@ Like any communication, data visualization can have a number of goals.
 ---
 
 Charles Joseph Minard  
+
 - [Napolean's March](http://www.robertlpeters.com/news/images/MinardMap.jpg)  
 >"Probably the best statistical graphic ever drawn, this map by Charles Joseph Minard portrays the losses suffered by Napoleon's army in the Russian campaign of 1812."
 — [edwardtufte.com](http://www.edwardtufte.com/tufte/posters)  
@@ -117,6 +121,7 @@ Charles Joseph Minard
 ---
 
 Randall Munroe  
+
 - [Radiation](https://xkcd.com/radiation/)
 - [Money](http://xkcd.com/980/huge/# )
 - [Height](http://xkcd.com/482/)
@@ -124,18 +129,21 @@ Randall Munroe
 ---
 
 Ben Fry  
+
 - [Deprocess](http://benfry.com/deprocess/)
 - [isometricblocks](http://benfry.com/isometricblocks/)
 
 ---
 
 New York Times, Mike Bostock, Shan Carter  
+
 - [Path to the White House](http://www.nytimes.com/interactive/2012/11/02/us/politics/paths-to-the-white-house.html)
 - [President Map](http://elections.nytimes.com/2012/results/president?view=county_margin_change_view)
 
 ---
 
 Accurat, Giorgia Lupi  
+
 - [Selling at Sundance](http://www.flickr.com/photos/accurat/12019630214/lightbox/)
 - [The Pritzker Architecture Prize](http://www.flickr.com/photos/accurat/10293615746/lightbox/)
 
