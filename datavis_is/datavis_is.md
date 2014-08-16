@@ -118,7 +118,7 @@ Like any communication, data visualization can have a number of goals.
 Charles Joseph Minard  
 
 - [Napolean's March](http://www.robertlpeters.com/news/images/MinardMap.jpg)  
->"Probably the best statistical graphic ever drawn, this map by Charles Joseph Minard portrays the losses suffered by Napoleon's army in the Russian campaign of 1812."
+> "Probably the best statistical graphic ever drawn, this map by Charles Joseph Minard portrays the losses suffered by Napoleon's army in the Russian campaign of 1812."
 — [edwardtufte.com](http://www.edwardtufte.com/tufte/posters)  
 
 ---
