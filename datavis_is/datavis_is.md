@@ -32,7 +32,9 @@ With appologies to [Ferdinand de Saussure](http://en.wikipedia.org/wiki/Ferdinan
 
 ---
 
-Communication is difficult because **meaning is not transmitted directly** and **meaning is always changed through expression and interpretation**.
+Communication is difficult because:
+- meaning is not transmitted directly
+- meaning is always changed through expression and interpretation
 
 ---
 
@@ -76,14 +78,18 @@ Imagine a study where several young cats and dogs are tested for their ability t
 
 ![Cats and Dogs Table](http://psam5600.justinbakse.com/wp-content/uploads/2014/01/cats_dogs_table.png)
 
+Note:
 How quickly can you answer the following questions?
 
 - Are cats or dogs better at performing the skill?
 - How does performance relate to age?
 - Are there any animals performing exceptionally well or poorly?
 
+---
+
 ![Cats and Dogs Plot](http://psam5600.justinbakse.com/wp-content/uploads/2014/01/cats_dogs_plot.png)
 
+Note:
 How quickly can you answer the questions by viewing the scatter plot?
 
 ---
@@ -100,23 +106,33 @@ Like any communication, data visualization can have a number of goals.
 
 # Some Examples of Data Visualizations
 
+---
+
 Charles Joseph Minard  
 - [Napolean's March](http://www.robertlpeters.com/news/images/MinardMap.jpg)  
 >"Probably the best statistical graphic ever drawn, this map by Charles Joseph Minard portrays the losses suffered by Napoleon's army in the Russian campaign of 1812."
-
 — [edwardtufte.com](http://www.edwardtufte.com/tufte/posters)  
+
+---
+
 Randall Munroe  
 - [Radiation](https://xkcd.com/radiation/)
 - [Money](http://xkcd.com/980/huge/# )
 - [Height](http://xkcd.com/482/)
 
+---
+
 Ben Fry  
 - [Deprocess](http://benfry.com/deprocess/)
 - [isometricblocks](http://benfry.com/isometricblocks/)
 
+---
+
 New York Times, Mike Bostock, Shan Carter  
 - [Path to the White House](http://www.nytimes.com/interactive/2012/11/02/us/politics/paths-to-the-white-house.html)
 - [President Map](http://elections.nytimes.com/2012/results/president?view=county_margin_change_view)
+
+---
 
 Accurat, Giorgia Lupi  
 - [Selling at Sundance](http://www.flickr.com/photos/accurat/12019630214/lightbox/)
@@ -130,16 +146,22 @@ Accurat, Giorgia Lupi
 
 Designers often employ specialized applications or custom programming in the creation of data visualizations. Using code allows you to visualize data sets that are very large and would be impossible to illustrate by hand. Using code also allows you to create designs that stay up to date with changing data and to create interactive visualizations.
 
+---
+
 Large Data Sets
 
 - [Race Dot Map](http://demographics.coopercenter.org/DotMap/index.html)
 - [Citibank](http://brandnewschool.com/Projects/CitiBiCentennial)
+
+---
 
 Real-Time Updating
 
 - [Wind Map](http://hint.fm/wind/)
 - [Google Finance](https://www.google.com/finance), [Stock Ticker](http://www.steampunklab.com/pics/146.jpg)
 - [Google Trends](http://www.google.com/trends/explore)
+
+---
 
 Interactive Visualizations
 
