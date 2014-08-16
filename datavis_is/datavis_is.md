@@ -33,6 +33,7 @@ With appologies to [Ferdinand de Saussure](http://en.wikipedia.org/wiki/Ferdinan
 ---
 
 Communication is difficult because:
+
 - meaning is not transmitted directly
 - meaning is always changed through expression and interpretation
 
