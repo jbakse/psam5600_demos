@@ -1,4 +1,7 @@
+# What Data Visualization Is
+
 [See this as slides](http://justinbakse.com/revealer/https://raw.githubusercontent.com/jbakse/psam5600_demos/master/datavis_is/datavis_is.md)
+
 ------
 
 # What Graphic Design Is
