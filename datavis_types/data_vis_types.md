@@ -1,5 +1,6 @@
 # Hello
 
+[Revealer](http://justinbakse.com/revealer/https://raw.githubusercontent.com/jbakse/psam5600_demos/master/datavis_types/data_vis_types.md#/)
 ---
 
 > What if everything was 10 times bigger?
