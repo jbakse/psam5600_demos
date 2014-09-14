@@ -37,7 +37,7 @@ text("Hello, World!", 10, 200);
 <table>
 	<tr>	<th>What to Do</th>			<th>What to Know</th>	</tr>
 	<tr>	<td>operators</td>			<td>literals</td> 		</tr>
-	<tr>	<td>experessions</td>		<td>variables</td> 		</tr>
+	<tr>	<td>expressions</td>		<td>variables</td> 		</tr>
 	<tr>	<td>statements</td>			<td>arrays</td> 		</tr>
 	<tr>	<td>flow control</td>		<td>structs<super>*</super></td> 		</tr>
 	<tr>	<td>functions</td>			<td></td> 		</tr>
@@ -85,7 +85,7 @@ ellipse(n, n, 50, 50);
 
 - Operators combine or compare values
 - Expressions are combinations of values that can be evaluated
-- A Statement is the smallest stand-alone element in a program. It is like a setnence in english.
+- A Statement is the smallest stand-alone element in a program. It is like a sentence in English.
 
 ```java
 a = b * 100;
