@@ -14,7 +14,7 @@
 
 # Processing Library Functions
 
-```
+```java
 size(600, 400);
 background(0, 0, 0);
 
@@ -50,7 +50,7 @@ text("Hello, World!", 10, 200);
 - Comments are text in a computer program that the computer will ignore.
 - Comments help explain the program to the programmers.
 
-```
+```java
 // find the age
 age = currentYear - birthYear;
 ```
@@ -61,7 +61,7 @@ age = currentYear - birthYear;
 	
 - A value described in the code literally.
 
-```
+```java
 ellipse(300, 60, 200, 100);
 ```
 
@@ -73,7 +73,7 @@ ellipse(300, 60, 200, 100);
 - Name, Value, Type
 - Declare, Initialize, Assign, Read
 
-```
+```java
 int n = 0;
 n = 100;
 ellipse(n, n, 50, 50);
@@ -87,7 +87,7 @@ ellipse(n, n, 50, 50);
 - Expressions are combinations of values that can be evaluated
 - A Statement is the smallest stand-alone element in a program. It is like a setnence in english.
 
-```
+```java
 a = b * 100;
 ```
 
@@ -97,7 +97,7 @@ a = b * 100;
 	
 - Conditional Statements: If
 
-```
+```java
 if (condition/test) {
 	// do this if the test succeeds
 } else {
@@ -113,7 +113,7 @@ if (age > 21) {
 
 - Loops: For
 
-```
+```java
 for (init, test, update){
 	//code to repeat
 }
@@ -135,7 +135,7 @@ for (n = 0; n < 10, n++) {
 
 ---
 
-```
+```java
 int rollDice() {
 	return (int)random(1,7) + (int)random(1,7);
 }
@@ -145,7 +145,7 @@ rollDice();
 
 ---
 
-```
+```java
 float add(float a, float b) {
 	return a+b;
 }
@@ -155,7 +155,7 @@ float result = add(10, 25);
 
 ---
 
-```
+```java
 void drawLogo(x, y, width, height){
 	color(255, 0, 0);
 	rect(x, y, width, height);
@@ -178,7 +178,7 @@ drawLogo(20, 10, 100, 100);
 - All values in an array must have they same type.
 - Declare, Initialize, Assign, Read
 
-```
+```java
 float[] values;
 values = new float[3];
 values[0] = 15;
@@ -196,7 +196,7 @@ println( values[1] );
 - `draw` is executed repeatedly, allowing for animation and interaction.
 - Your programs won't need animation, you can use `noLoop();` to make draw only run once.
 
-```
+```java
 void setup() {
 	size(600, 400);
 	noLoop();
