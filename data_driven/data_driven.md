@@ -1,5 +1,7 @@
 # Data Graphics with Processing and Illustrator
 
+[Revealer](http://justinbakse.com/revealer/https://raw.githubusercontent.com/jbakse/psam5600_demos/master/data_driven/data_driven.md)
+
 ------
 
 ## Parameterized Drawing
@@ -113,7 +115,7 @@ drawCapsule(50);
 
 ## You want Map()
 
-- `[map()](http://www.processing.org/reference/map_.html)` is super good.
+- [`map()`](http://www.processing.org/reference/map_.html) is super good.
 - It re-maps a value from one range to another.
 - Map: 8 on a scale of 0 - 10 to 80 on a scale of 0 - 100
 - Map: 72 on a scale of 32 to 212 to 22.2 on a scale of 0 - 100
