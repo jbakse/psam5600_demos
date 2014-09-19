@@ -128,6 +128,8 @@ roomTempC = map(72, 32, 212, 0, 100);
 
 ## Okay, Now the Data
 
+- [Bar Chart Example](https://github.com/jbakse/psam5600_demos/tree/master/data_driven/bar)
+- [Stacked Bar Chart Example](https://github.com/jbakse/psam5600_demos/tree/master/data_driven/stacked_bar)
 
 
 

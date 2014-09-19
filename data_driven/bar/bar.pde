@@ -15,10 +15,12 @@ void draw() {
 	fill(0, 0, 0);
 	noStroke();
 
+	pushMatrix();
 	translate(50, 300);
 	
 	for(int i = 0; i < fakeData.length; i++) {
 		drawBar(fakeData[i] * 10);
 		translate(50, 0);
 	}
+	popMatrix();
 }
