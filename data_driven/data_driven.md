@@ -132,14 +132,33 @@ roomTempC = map(72, 32, 212, 0, 100);
 - [Stacked Bar Chart Example](https://github.com/jbakse/psam5600_demos/tree/master/data_driven/stacked_bar)
 
 
-
 ------
 
 # Exporting to Illustrator
 
 - Use the [Processing PDF Library](http://processing.org/reference/libraries/pdf/)
 
-[SAMPLE CODE]
+---
+
+```java
+import processing.pdf.*;
+
+void setup() {
+  size(400, 400);
+  noLoop();
+ 
+}
+
+void draw() {
+  
+  beginRecord(PDF, "output.pdf"); 
+
+  fill(255, 0, 0);
+  ellipse(200, 200, 100, 100);
+
+  endRecord();
+}
+```
 
 ---
 
