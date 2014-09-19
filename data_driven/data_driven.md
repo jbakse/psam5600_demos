@@ -4,6 +4,15 @@
 
 ## Parameterized Drawing
 
+- Functions allow you to make small, reusable sub-programs.
+- Using funcitons breaks up a bigger problem into smaller ones.
+- Good functions have a clear name, and **encapsulate** useful functionality.
+- Functions can take parameter values to control exactly what they do.
+- You say `jump()` and `howHigh`
+- Don't use parameters to make a function do something completely different.
+
+---
+
 A simple capsule drawing function.
 
 ```java
@@ -15,6 +24,8 @@ void drawCapsule() {
 	ellipse(100 - 15,50,30,30);
 }
 ```
+
+---
 
 A capsule drawing function with x and y parameters
 
@@ -28,9 +39,13 @@ void drawCapsule(float _x, float _y) {
 }
 ```
 
+---
+
+[Capsule Demo](https://github.com/jbakse/psam5600_demos/tree/master/data_driven/capsule)
 
 
-[Example function that draws a parameterized shape]
+
+
 
 
 
@@ -54,11 +69,12 @@ void drawCapsule(float _x, float _y) {
 ## Matrix Stack Functions
 
 - The __Matrix Stack__ lets you save and restore states of the transform matrix.
-- You can add something to the top of the stack, or access what is currently there. 
+- You can _push_ something to the top of the stack, or _pop_ what is currently there. 
 - Kinda like _Inception_
-- pushMatrix() // save this matrix to the top of the stack
-- popMatrix() // load the top matrix on the stack
+- pushMatrix() // add a copy to the top of the stack
+- popMatrix() // remove and access the top item of the stack
 - resetMatrix() // just reset everything to the default
+- Use push/pop to clean up after yourself.
 
 ---
 
@@ -70,20 +86,48 @@ void drawCapsule(float _x, float _y) {
 - Takes getting used to, but can make some code cleaner and easier to follow.
 - Change the position/scale of shapes drawn with a function that __isn't__ parameterized.
 
+---
 
+```java
+void drawCapsule(float _width) {
+	noStroke();
+	rect(_width * -.5, -15, _width, 30);
+	ellipse(_width * -.5 - 15, -15, 30, 30);
+	ellipse(_width * +.5 - 15, -15, 30, 30);
+}
+
+translate(100, 100);
+rotate(radians(45));
+drawCapsule(50);
+```
 
 ---
 
-[EXAMPLE Draw the same thing in two places.]
+## Combining Transformations
 
----
+- translate, rotate, and scale accumulate
+- if you rotate 45 and than translate, your translation will be rotated
+- if you translate and then rotate, you will change the 'pivot'
 
-Combining Transformations
+------
 
-- Order Counts
-- [EXAMPLE]
+## You want Map()
 
----
+- `[map()](http://www.processing.org/reference/map_.html)` is super good.
+- It re-maps a value from one range to another.
+- Map: 8 on a scale of 0 - 10 to 80 on a scale of 0 - 100
+- Map: 72 on a scale of 32 to 212 to 22.2 on a scale of 0 - 100
+
+```java
+roomTempC = map(72, 32, 212, 0, 100);
+```
+
+- `max()` and -`min()` are good to know too.
+
+------
+
+## Okay, Now the Data
+
 
 
 
