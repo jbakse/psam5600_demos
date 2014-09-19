@@ -157,12 +157,12 @@ float result = add(10, 25);
 ---
 
 ```java
-void drawLogo(x, y, width, height){
-	color(255, 0, 0);
+void drawLogo(float x, float y, float width, float height){
+	fill(255, 0, 0);
 	rect(x, y, width, height);
-	color(0, 0, 0);
+	fill(0, 0, 0);
 	rect(x, y, width - 10, height - 10);
-	color(255, 0, 0);
+	fill(255, 0, 0);
 	rect(x, y, width - 20, height - 20);
 }
 

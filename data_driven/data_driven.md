@@ -7,7 +7,7 @@
 ## Parameterized Drawing
 
 - Functions allow you to make small, reusable sub-programs.
-- Using funcitons breaks up a bigger problem into smaller ones.
+- Using functions breaks up a bigger problem into smaller ones.
 - Good functions have a clear name, and **encapsulate** useful functionality.
 - Functions can take parameter values to control exactly what they do.
 - You say `jump()` and `howHigh`
@@ -53,10 +53,10 @@ void drawCapsule(float _x, float _y) {
 
 ------
 
-## The Tranformation Matrix
+## The Transformation Matrix
 
-- Representes the Processing coordinate system.
-- Default matrix:  0,0 in upperleft corner; 1 unit = 1 pixel
+- Represents the Processing coordinate system.
+- Default matrix:  0,0 in upper-left corner; 1 unit = 1 pixel
 - Transforming the matrix will change how future shapes are drawn
 
 ---
@@ -68,7 +68,7 @@ void drawCapsule(float _x, float _y) {
 
 ---
 
-## Matrix Stack Functions
+## The Matrix Stack
 
 - The __Matrix Stack__ lets you save and restore states of the transform matrix.
 - You can _push_ something to the top of the stack, or _pop_ what is currently there. 
@@ -80,9 +80,9 @@ void drawCapsule(float _x, float _y) {
 
 ---
 
-## Why use transform the matrix?
+## Why transform the matrix?
 
-- Change the unit to something more convienent.
+- Change the unit to something more convenient.
 - Draw rotated shapes.
 - Draw rotated/scaled/translated compositions of shapes without calculating rotated/scaled/translated positions.
 - Takes getting used to, but can make some code cleaner and easier to follow.
