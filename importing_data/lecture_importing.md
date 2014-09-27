@@ -1,5 +1,7 @@
 # Finding and Using Data
 
+[Revealer](http://justinbakse.com/revealer/https://raw.githubusercontent.com/jbakse/psam5600_demos/master/importing_data/lecture_importing.md)
+
 ## Data Sources
 
 The Internet contains a literally unfathomable amount of information. Estimates on the size of the Internet vary widely, but it seems safe to say there are hundreds of billions of web pages. By bytes, web pages are only a small part of the total data on the Internet. 
