@@ -2,6 +2,8 @@
 
 [Revealer](http://justinbakse.com/revealer/https://raw.githubusercontent.com/jbakse/psam5600_demos/master/importing_data/lecture_importing.md)
 
+------
+
 ## Data Sources
 
 The Internet contains a literally unfathomable amount of information. Estimates on the size of the Internet vary widely, but it seems safe to say there are hundreds of billions of web pages. By bytes, web pages are only a small part of the total data on the Internet. 
@@ -27,7 +29,7 @@ If data is available, sometimes it is easy to find with a simple [google search]
 Many websites offer data through interactive API calls. In this model, rather than downloading the complete set of data, you request specific queries and receive the results. This arrangement is useful when you are developing an application that will want to access up-to-date information, or display information interactively.
 
 
----
+------
 
 
 ## Data File Formats
@@ -43,7 +45,7 @@ There are many [data formats](http://en.wikipedia.org/wiki/Comparison_of_data_se
 
 ---
 
-Example .csv
+example.csv
 
 ```csv
 Name,Species,Age
@@ -61,7 +63,7 @@ Captain,Dog,3
 
 ---
 
-Example .json
+example.json
 
 ```json
 [
@@ -85,7 +87,7 @@ Example .json
 
 ---
 
-Example .xml
+example.xml
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -114,8 +116,10 @@ Example .xml
 ## Importing Data to Processing
 
 - [loadTable()](http://www.processing.org/reference/loadTable_.html) Loads .csv and .tsv files
-- [loadJSONObject()](http://www.processing.org/reference/loadJSONObject_.html) Loads 
+- [loadJSONObject()](http://www.processing.org/reference/loadJSONObject_.html) Loads .json files
 - [loadXML()](http://www.processing.org/reference/loadXML_.html) Loads .xml files
+
+Read the docs and study the examples. Working with each type of data in processing is somewhat different.
 
 ---
 
